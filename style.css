@@ -13,3 +13,19 @@ header {
   text-align: center;
   font-size: 30px;
 }
+
+header button {
+  background-color: #356c3f;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  margin-top: 20px;
+  font-size: 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+header button:hover {
+  background-color: #2c5a34;
+}
