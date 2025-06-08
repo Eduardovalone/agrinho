@@ -29,3 +29,21 @@ header button {
 header button:hover {
   background-color: #2c5a34;
 }
+
+.linha-tempo {
+  border-left: 4px solid #4caf50;
+  margin: 40px;
+  padding-left: 20px;
+}
+
+.evento {
+  position: relative;
+  margin-bottom: 30px;
+  padding-left: 10px;
+  background-color: #263a2e;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  transition: transform 0.3s ease;
+  font-size: 25px;
+}
