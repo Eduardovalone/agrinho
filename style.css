@@ -47,3 +47,22 @@ header button:hover {
   transition: transform 0.3s ease;
   font-size: 25px;
 }
+
+.evento:hover {
+  transform: scale(1.02);
+}
+
+.evento::before {
+  content: "🟢";
+  position: absolute;
+  left: -28px;
+  top: 10px;
+  font-size: 22px;
+}
+
+.evento h3 {
+  margin-top: 0;
+  color: #81c784;
+}
+
+
